@@ -171,16 +171,17 @@ html{
       filter: brightness(90%);
   }
   .navbar .logo a:hover{
-    color: #ff00c8;
+    color: #6665ee;
     transition: 0.8s ease-in-out;
   }
   .menu-btn{
-    color: rgb(0, 0, 0);
+    /* display: none;
+    color: blue;
     font-size: 10px;
     cursor: pointer;
     display: none;
     text-decoration: none;
-    margin-right: 30px;
+    margin-right: 30px; */
   }
   .navbar .logo a{
     color: #fff;
@@ -240,6 +241,10 @@ html{
     color: #081D45;
     background: none;
 }
+.burger{
+  display: none;
+}
+
 
 /* about  */
 .title{
@@ -268,25 +273,26 @@ html{
   color: white;
 }
 .about .about-content .right .text span{
-  color: crimson;
+  color: #6665ee;
 }
 .about .about-content .right p{
   text-align: justify;
 }
 .about .about-content .right a{
   display: inline-block;
-  background: red;
+  background: #6665ee;
   color: #fff;
   font-size: 20px;
   font-weight: 500;
   padding: 10px 30px;
   margin-top: 20px;
   border-radius: 6px;
-  border: 2px solid red;
+  border: 2px solid r#6665ee;
   transition: all 0.3s ease;
 } 
 .about .about-content .right a:hover{
-color: #081D45;
+color:blue;
+border: 1px solid blue;
 background: transparent;
 }
 p{
@@ -411,7 +417,7 @@ p{
   background: linear-gradient(147deg, #6d39fe  0%, #0b00a8 74%);
 }
 .content button:hover{
-  background: linear-gradient(147deg, #ff000d 0%, #811907 74%);
+  background: linear-gradient(147deg, #6665ee 0%, #811907 74%);
 }
 .sliders{
   position: absolute;
@@ -443,7 +449,7 @@ p{
   left: 0;
   height: 100%;
   width: -100%;
-  background: linear-gradient(147deg, #ff000d 0%, #811907 74%);;
+  background: linear-gradient(147deg, #6665ee 0%, #811907 74%);;
   border-radius: 10px;
   transform: scaleX(0);
   transition: transform .6s;
@@ -924,7 +930,7 @@ footer span a{
   text-decoration: none;
 }
 footer span a:hover{
-  color: #ff00c8;
+  color: #6665ee;
   text-decoration: underline;
 }
 
@@ -1019,13 +1025,16 @@ font-weight: 500;
 border-radius: 6px;
 cursor: pointer;
 flex-wrap: nowrap;
-background: red;
+background: #6665ee;
 border: 2px solid #07193b;
 transition: all 0.3s ease;
 }
+
 .right form .button-area button:hover{
-color: skyblue;
-background: #07193b;
+/* color: skyblue; */
+background-color: transparent;
+color:blue;
+border: 1px solid blue;
 }
 #contact.contact{
   background: #1e242f;

@@ -34,10 +34,10 @@ nav ul li a{
     color: #ffffff;
 }
 nav ul li a:hover{
-    color: red;
+    background: #6665ee;
 }
 .btn{
-    background: red;
+    background: #6665ee;
     border-radius: 5px;
     padding: 10px 18px;
     text-decoration: none;
@@ -48,8 +48,8 @@ nav ul li a:hover{
 }
 .btn:hover{
     background: transparent;
-    color: red;
-    border: 1px solid red;
+    color:blue;
+    border: 1px solid blue;
 }
 .info{
     margin-left: 10%;
@@ -60,7 +60,7 @@ nav ul li a:hover{
     color: #ffffff;
 }
 .info h1 span{
-   color: red;
+   color: #6665ee;
 }
 .info p{
     color: #e0e2e7;
